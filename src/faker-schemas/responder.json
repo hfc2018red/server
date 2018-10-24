@@ -1,0 +1,26 @@
+{
+  "title": "Responder",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "createdAt",
+    "updatedAt"
+  ]
+}

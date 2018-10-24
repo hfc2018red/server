@@ -1,0 +1,22 @@
+{
+  "title": "Conversation",
+  "type": "object",
+  "properties": {
+    "public": {
+      "type": "boolean"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "public",
+    "createdAt",
+    "updatedAt"
+  ]
+}

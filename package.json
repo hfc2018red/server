@@ -1,0 +1,22 @@
+{
+  "name": "fhf-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Mike Lay <mike@mkly.io>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.5.0",
+    "sequelize": "^4.41.0",
+    "sequelize-cli": "^5.2.0"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "json-schema-faker": "^0.5.0-rc16"
+  }
+}

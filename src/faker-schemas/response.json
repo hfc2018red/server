@@ -1,0 +1,22 @@
+{
+  "title": "Response",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "body",
+    "createdAt",
+    "updatedAt"
+  ]
+}
