@@ -6,7 +6,7 @@ const fs = require('fs');
 const util = require('util');
 const readFile = util.promisify(fs.readFile);
 
-const fileName = `${__dirname}/../schemas/responder.json`
+const fileName = `${__dirname}/../faker-schemas/responder.json`
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
