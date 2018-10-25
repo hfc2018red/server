@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  server:
+    build: .
+    environment:
+      - DATABASE_URL=postgres://fhf:fhf@db:5432/fhf
+      - PORT=3000
+  db:
+    image: postgres:10
+    environment:
+      - POSTGRES_USER=fhf
+      - POSTGRES_PASSWORD=fhf
